@@ -1,12 +1,12 @@
 [project]
 name = "nagaagent"
 version = "2.1.0"
-description = "NagaAgent 2.1 - 一个强大的AI助手"
+description = "NagaAgent 3.0 - 一个强大的AI助手"
 authors = [
     {name = "柏斯阔落", email = "1781393885@qq.com"},
 ]
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 dependencies = [
     # 核心依赖
     "mcp>=1.6.0",
@@ -35,7 +35,7 @@ dependencies = [
     "websockets>=12.0",
     
     # AI和数据处理相关
-    "numpy>=1.24.0,<2.0.0",
+    "numpy>=2.2.5",
     "pandas>=2.0.0,<3.0.0",
     "tqdm>=4.67.1",
     "scikit-learn>=1.6.1",
