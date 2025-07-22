@@ -1,7 +1,7 @@
 # NagaAgent 3.0 Setup Script
 # Version managed by config.py
 $ErrorActionPreference = "Stop"
-$pythonMinVersion = "3.8"
+$pythonMinVersion = "3.10"
 $venvPath = ".venv"
 
 # Check Python version
