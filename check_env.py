@@ -39,7 +39,7 @@ def check_windows_specific():
     print("🖥️  Windows 环境检查:")
     
     # 检查 PowerShell
-    powershell_ok = check_command("powershell")
+    powershell_ok = check_command("pwsh")
     print_status("PowerShell", powershell_ok)
     
     # 检查 Windows 浏览器
